@@ -110,3 +110,10 @@
       ./run/ue.sh
       ```
 
+4. Dùng [tcpdump](../tcpdump_wireshark/tcpdump.md) để bắt các gói tin
+
+5. Terminate:
+
+   ```bash
+   ./run/stop.sh
+   ```
