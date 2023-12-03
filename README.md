@@ -15,3 +15,8 @@
 
 - [Command](./docker_command/README.md)
 - [mongodb](./docker_command/mongodb.md)
+
+### Run Etrib5gc
+
+- [Read config](./run%20etrib5gc/readme.md)
+- [Download run/](./run%20etrib5gc/run/) to etrib5gc/
