@@ -1,4 +1,4 @@
-`tcpdump` là một công cụ mạng mạnh mẽ trên hệ điều hành Unix/Linux được sử dụng để theo dõi và phân tích gói tin trên mạng. Dưới đây là một số ví dụ về cách sử dụng `tcpdump`:
+`tcpdump` là một công cụ được sử dụng để theo dõi và phân tích gói tin trên mạng. Cách dùng:
 
 1. **Hiển thị tất cả các gói tin trên một giao diện cụ thể:**
    ```bash
