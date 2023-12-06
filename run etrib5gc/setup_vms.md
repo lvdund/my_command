@@ -82,4 +82,4 @@
 
 - Clone etrib5gc.
 
-- Chép [folder run](./run/) vào etrib5gc.
+- Chép [folder run_on_vms](./run_on_vms/) vào etrib5gc.
