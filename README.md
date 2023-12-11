@@ -21,3 +21,7 @@
 - [Read config](./run%20etrib5gc/readme.md)
 - [Download run/](./run%20etrib5gc/run/) to etrib5gc/
 - [Setup vm virtualbox (không có bước config)](./run%20etrib5gc/setup_vms.md)
+
+### Nodejs nvm
+
+- [nvm command](./nodejs/nvm%20command.md)
