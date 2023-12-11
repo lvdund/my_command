@@ -7,4 +7,4 @@ sudo systemctl stop ufw
 sudo systemctl disable ufw # prevents the firewall to wake up after a OS reboot
 sudo iptables -I FORWARD 1 -j ACCEPT
 
-sudo route add default gw <enp0s3_IP> enp0s3
+sudo route add default gw 192.168.1.1 enp0s3
