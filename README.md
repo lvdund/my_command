@@ -31,3 +31,5 @@
 
 - [Command](./arch_linux/command.md)
 - [Delete](./arch_linux/delete_pkg.md)
+- [yay](./arch_linux/packed%20AUR%20helper%20yay.md)
+- [paru](./arch_linux/packed%20AUR%20helper%20paru.md)
