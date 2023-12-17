@@ -7,6 +7,7 @@
 
 ### Git command
 
+- [Begin config](./git_command/begin_config.md)
 - [2 repo](./git_command/2_repo.md)
 - [branch](./git_command/branch.md)
 - [err](./git_command/err.md)
@@ -25,3 +26,8 @@
 ### Nodejs nvm
 
 - [nvm command](./nodejs/nvm%20command.md)
+
+### Arch Linux
+
+- [Command](./arch_linux/command.md)
+- [Delete](./arch_linux/delete_pkg.md)
