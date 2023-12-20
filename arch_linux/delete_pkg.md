@@ -18,6 +18,13 @@
     ```
     Lệnh này xóa gói và tất cả các phụ thuộc không sử dụng, giải phóng không gian trên ổ đĩa.
 
+4. **Xóa gói và tất cả các phụ thuộc không sử dụng:**
+    ```bash
+    yay -Rns $(yay -Qdtq)
+
+    sudo pacman -Rns $(pacman -Qdtq)
+    ```
+
 Lưu ý rằng khi bạn xóa một gói, nó có thể ảnh hưởng đến các ứng dụng khác mà có thể phụ thuộc vào nó. Hãy kiểm tra cẩn thận trước khi xóa bất kỳ gói nào.
 
 Nếu bạn muốn xóa các tệp cấu hình của gói cùng với nó, bạn có thể sử dụng lệnh `pacman -Rns`.
