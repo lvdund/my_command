@@ -21,7 +21,8 @@
 4. **Xóa gói và tất cả các phụ thuộc không sử dụng:**
     ```bash
     yay -Rns $(yay -Qdtq)
-
+    ```
+    ```bash
     sudo pacman -Rns $(pacman -Qdtq)
     ```
 
