@@ -36,4 +36,4 @@
 
 ### Python
 
--[Create virtual env](./python/python-virtualenv.md)
+- [Create virtual env](./python/python-virtualenv.md)
