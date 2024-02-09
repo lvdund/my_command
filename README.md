@@ -33,3 +33,7 @@
 - [Delete](./arch_linux/delete_pkg.md)
 - [yay](./arch_linux/packed%20AUR%20helper%20yay.md)
 - [paru](./arch_linux/packed%20AUR%20helper%20paru.md)
+
+### Python
+
+-[Create virtual env](./python/python-virtualenv.md)
