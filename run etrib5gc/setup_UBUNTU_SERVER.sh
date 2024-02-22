@@ -4,8 +4,8 @@ cd ~
 mkdir -p $HOME/Environment/golang/gopath
 mkdir -p $HOME/Environment/golang/goroot
 
-sudo apt update -y
-sudo apt upgrade -y
+# sudo apt update -y
+# sudo apt upgrade -y
 
 sudo apt -y install git gcc g++ make autoconf libtool pkg-config libmnl-dev libyaml-dev libsctp-dev lksctp-tools iproute2 gnupg curl net-tools
 sudo snap install cmake --classic
@@ -60,12 +60,12 @@ sudo make install
 # sudo systemctl enable mongod
 
 
-# cd ~
-# git clone https://github.com/aligungr/UERANSIM
-# cd UERANSIM
-# git checkout 3a96298
+cd ~
+git clone https://github.com/aligungr/UERANSIM
+cd UERANSIM
+git checkout 3a96298
 # make
 
 cd ~
 
-source ~/.bashrc
+source .bashrc
