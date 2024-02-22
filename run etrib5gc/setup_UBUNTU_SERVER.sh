@@ -21,6 +21,7 @@ echo 'export PATH=$PATH:$GOPATH/bin:$GOROOT/bin' >> ~/.bashrc
 echo 'export GO111MODULE=auto' >> ~/.bashrc
 echo '' >> ~/.bashrc
 
+cd ~
 rm go1.18.10.linux-amd64.tar.gz
 
 cd ~
