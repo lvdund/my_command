@@ -37,3 +37,7 @@
 ### Python
 
 - [Create virtual env](./python/python-virtualenv.md)
+
+### mininet
+
+- [connect host to external]
