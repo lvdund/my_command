@@ -41,3 +41,7 @@
 ### mininet
 
 - [connect host to external]
+
+### minikube use local image
+
+https://www.baeldung.com/ops/docker-local-images-minikube
