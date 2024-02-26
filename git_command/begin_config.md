@@ -49,7 +49,7 @@
 
 Lưu ý rằng bạn có thể sửa đổi các tùy chọn này bất kỳ lúc nào bằng cách chạy lại lệnh `git config --global` với giá trị mới.
 
-10. **KEY SSH
+10. **KEY SSH**
    ```bash
    ssh-keygen -t rsa -C "lvdund@gmail.com"
    ```
