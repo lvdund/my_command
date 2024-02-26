@@ -49,4 +49,7 @@
 
 Lưu ý rằng bạn có thể sửa đổi các tùy chọn này bất kỳ lúc nào bằng cách chạy lại lệnh `git config --global` với giá trị mới.
 
-Nhớ rằng những cấu hình này chỉ được áp dụng toàn cầu cho tất cả các dự án Git mà bạn thực hiện trên máy tính của bạn.
+10. **KEY SSH
+   ```bash
+   ssh-keygen -t rsa -C "lvdund@gmail.com"
+   ```
