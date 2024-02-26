@@ -2,12 +2,12 @@
 
 1. **Tên người dùng:**
    ```bash
-   git config --global user.name "Your Name"
+   git config --global user.name "lvdund"
    ```
 
 2. **Địa chỉ email:**
    ```bash
-   git config --global user.email "your.email@example.com"
+   git config --global user.email "lvdund@gmail.com"
    ```
 
 3. **Mặc định trình soạn thảo (chẳng hạn là VSCode, Sublime Text, Nano, Vim):**
