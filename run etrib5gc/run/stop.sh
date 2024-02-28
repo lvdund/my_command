@@ -1,6 +1,6 @@
 #!/bin/bash
 
-NF_LIST="controller damf amf smf pcf udm ausf upf upmf pran nr-gnb nr-ue"
+NF_LIST="controller nsm gateway damf amf smf pcf udm ausf upf upmf pran nr-gnb nr-ue"
 
 for NF in ${NF_LIST}; do
     sudo killall -9 ${NF}
