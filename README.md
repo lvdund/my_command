@@ -54,3 +54,6 @@ nano .tmux.conf
 set -g mouse on
 bind -n C-k clear-history
 ```
+```bash
+tmux source .tmux.conf
+```
