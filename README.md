@@ -45,3 +45,12 @@
 ### minikube use local image
 
 https://www.baeldung.com/ops/docker-local-images-minikube
+
+### setting tmux
+```bash
+nano .tmux.conf
+```
+```bash
+set -g mouse on
+bind -n C-k clear-history
+```
