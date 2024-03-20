@@ -5,8 +5,8 @@ cd ~
 sudo apt -y install git gcc g++ make autoconf libtool pkg-config libmnl-dev libyaml-dev libsctp-dev lksctp-tools iproute2 gnupg curl net-tools
 sudo snap install cmake --classic
 
-wget https://dl.google.com/go/go1.18.10.linux-amd64.tar.gz
-sudo tar -C $HOME/Environment/golang/goroot -zxvf go1.18.10.linux-amd64.tar.gz
+# wget https://dl.google.com/go/go1.18.10.linux-amd64.tar.gz
+# sudo tar -C $HOME/Environment/golang/goroot -zxvf go1.18.10.linux-amd64.tar.gz
 
 
 wget https://dl.google.com/go/go1.18.10.linux-amd64.tar.gz
