@@ -61,3 +61,8 @@ bind -n C-k clear-history
 ```bash
 tmux source .tmux.conf
 ```
+
+### Setting crow translate
+```bash
+dbus-send --type=method_call --dest=io.crow_translate.CrowTranslate /io/crow_translate/CrowTranslate/MainWindow io.crow_translate.CrowTranslate.MainWindow.translateSelection
+```
