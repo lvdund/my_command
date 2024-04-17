@@ -1,0 +1,15 @@
+{
+	"plmnId": {
+		"mcc": "208",
+		"mnc": "93"
+	},
+	"mesh": {
+		"sbiPort": 9400,
+		"agentPort":7400,
+		"registrarIp": "10.0.0.2",
+		"labels": {
+			"app":"b5gc",
+			"nf": "ausf"
+		}
+	}
+}

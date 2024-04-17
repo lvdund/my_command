@@ -1,0 +1,42 @@
+{
+	"upfid": "upf1",
+	"plmnId": {
+		"mcc": "208",
+		"mnc": "93"
+	},
+	"slices":[
+		{
+			"sd": "010203",
+			"sst": 1
+		}
+	],
+	"dnnlist": [
+		{
+			"addr": "10.60.0.1",
+			"dnn": "internet",
+			"cidr": "10.60.0.0/24"
+		}
+	],
+	"iflist": [
+		{
+			"ip": "10.0.0.12",
+			"mtu": 1400,
+			"name": "an1"
+		},
+		{
+			"ip": "10.0.0.12",
+			"mtu": 1400,
+			"name": "tran1"
+		}
+	],
+	"mesh": {
+		"sbiPort": 11001,
+		"agentPort":10001,
+		"registrarIp": "10.0.0.2",
+		"labels": {
+			"app":"b5gc",
+			"nf": "upf"
+		}
+	}
+
+}

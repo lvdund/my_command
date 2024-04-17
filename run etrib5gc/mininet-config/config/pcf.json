@@ -1,0 +1,24 @@
+{
+	"plmnId": {
+		"mcc": "208",
+		"mnc": "93"
+	},
+	"mesh": {
+		"sbiPort": 9600,
+		"agentPort":7600,
+		"registrarIp": "10.0.0.2",
+		"labels": {
+			"app":"b5gc",
+			"nf": "pcf"
+		}
+	},
+	"db": {
+		"url": "mongodb://192.168.1.56:27017",
+		"name": "etrib5gc",
+		"auth": "authsub",
+		"am": "amsub",
+		"smsel": "smselsub",
+		"sessman": "sessmansub",
+		"mock": false
+	}
+}

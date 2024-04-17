@@ -1,0 +1,19 @@
+{
+	"plmnId": {
+		"mcc": "208",
+		"mnc": "93"
+	},
+	"t3502": 200,
+	"t3550": 500,
+	"mesh": {
+ 		"sbiPort": 9200,
+		"agentPort":7200,
+		"registrarIp": "10.0.0.2",
+		"registrarPort":7777,
+		"labels": {
+			"app":"b5gc",
+			"nf": "damf",
+			"region":"daejeon"
+		}
+	}
+}

@@ -1,0 +1,49 @@
+supi: imsi-208933703865205
+mcc: "208"
+mnc: "93"
+protectionScheme: 1
+homeNetworkPublicKey: 5a8d38864820197c3394b92613b20b91633cbd897119273bf8e4a6f4eec0a650
+homeNetworkPublicKeyId: 1
+routingIndicator: "0000"
+key: 6bfb086114eee9b8022a9f5a4b22dee4
+op: 37cc4999d0b2a103a8d477f1fca9f515
+amf: "8000"
+opType: OPC
+imei: "356938030532833"
+imeisv: "011867323342856"
+gnbSearchList:
+- 127.0.0.1
+uacAic:
+  mps: false
+  mcs: false
+uacAcc:
+  normalClass: 0
+  class11: false
+  class12: false
+  class13: false
+  class14: false
+  class15: false
+sessions:
+- type: IPv4
+  apn: internet
+  slice:
+    sst: 1
+    sd: "0x010203"
+configured-snssai:
+- sst: 1
+  sd: "0x010203"
+default-snssai:
+- sst: 1
+  sd: "0x000001"
+integrity:
+  IA1: true
+  IA2: true
+  IA3: true
+ciphering:
+  EA1: false
+  EA2: false
+  EA3: false
+integrityMaxRate:
+  uplink: full
+  downlink: full
+authenticationMethod: 5G_AKA

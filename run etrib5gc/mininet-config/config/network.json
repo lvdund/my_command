@@ -1,0 +1,59 @@
+{
+	"plmnid" : {
+		"mcc": "208",
+		"mnc":"93"
+	},
+	"slices": [
+		{
+			"sst":1,
+			"sd": "0x010203"
+		},
+		{
+			"sst":1,
+			"sd": "0x010204"
+		},
+		{
+			"sst":1,
+			"sd": "0x010205"
+		}
+	],
+	"amlist":{
+		"subtype-1": {
+			"nssai": {
+				"defaultSingleNssais": [{
+					"sst":1,
+					"sd": "0x010203"
+				}],
+				"singleNssais": [{
+					"sst":1,
+					"sd": "0x010203"
+				},{
+					"sst":1,
+					"sd": "0x111213"
+				}]
+			},
+			"subscribedUeAmbr": {
+				"uplink": "1000 Mbps",
+				"downlink":"1000 MbpsM"
+			}
+		},
+		"subtype-2" : {
+			"nssai": {
+				"defaultSingleNssais": [{
+					"sst":1,
+					"sd": "0x010203"
+				}],
+				"singleNssais": [{
+					"sst":1,
+					"sd": "0x010203"
+				}]
+			},
+			"subscribedUeAmbr": {
+				"uplink": "1000 Mbps",
+				"downlink":"1000 Mbps"
+			}
+		}
+	},
+	"dnnlist":[
+	]
+}

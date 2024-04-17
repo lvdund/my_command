@@ -1,0 +1,17 @@
+{
+	"plmnId": {
+		"mcc": "208",
+		"mnc": "93"
+	},
+	"amfSet": "10-100",
+	"mesh": {
+		"sbiPort": 9100,
+		"agentPort":7100,
+		"registrarIp": "10.0.0.2",
+		"labels": {
+			"app":"b5gc",
+			"nf": "amf",
+			"amfset":"10-100"
+		}
+	}
+}

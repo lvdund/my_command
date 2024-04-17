@@ -1,0 +1,12 @@
+{
+	"bind":"",
+	"port":7777,
+	"exIp": "10.0.0.2",
+	"exPort":7777,
+	"cidrs":["10.0.0.0/24"],
+	"ctrlIp": "10.0.0.1",
+	"ctrlPort": 8888,
+	"labels":{
+		"loc":"daejeon"
+	}
+}

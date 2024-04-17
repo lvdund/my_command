@@ -1,0 +1,33 @@
+{
+	"region": "daejeon",
+	"rannets": ["an1"],
+	"plmnId": {
+		"mcc": "208",
+		"mnc": "93"
+	},
+	"mesh": {
+		"sbiPort": 9300,
+		"agentPort":7300,
+		"registrarIp": "10.0.0.2",
+		"labels": {
+			"app":"b5gc",
+			"tac": "001",
+			"nf": "pran"
+		}
+	},
+	"ngap": {
+		"ip":"10.0.0.7"
+	},
+	"plmnlist": [{ 
+		"plmnid": {
+			"mcc": "208",
+			"mnc": "93"
+		},
+	   "slices":	[ {
+			"sst": 1,
+			"sd": "010203"
+			}, {
+			"sst": 2,
+			"sd": "030201"
+			}]}]
+}
