@@ -1,0 +1,7 @@
+/bin/
+/run/
+# /mininet-config/
+# /ue-list/
+*.sh
+/sim_logs/
+*.log

@@ -12,9 +12,11 @@
 - [branch](./git_command/branch.md)
 - [err](./git_command/err.md)
 
-### Pyenv
+### Python
 
-- [Read](https://gist.github.com/trongnghia203/9cc8157acb1a9faad2de95c3175aa875)
+- [Create virtual env](./python/python-virtualenv.md)
+
+- (Recommend)[Read](./python/pyenv.md)
 
 ### Docker command
 
@@ -26,6 +28,7 @@
 - [Read config](./run%20etrib5gc/readme.md)
 - [Download run/](./run%20etrib5gc/run/) to etrib5gc/
 - [Setup vm virtualbox (không có bước config)](./run%20etrib5gc/setup_vms.md)
+- [mininet](./mininet/etrib5gc.md)
 
 ### Nodejs nvm
 
@@ -38,13 +41,10 @@
 - [yay](./arch_linux/packed%20AUR%20helper%20yay.md)
 - [paru](./arch_linux/packed%20AUR%20helper%20paru.md)
 
-### Python
-
-- [Create virtual env](./python/python-virtualenv.md)
-
 ### mininet
 
-- [connect host to external]
+- [connect host to external](./mininet/h1-to-google.md)
+- [setup for etrib5gc testing](./mininet/etrib5gc.md)
 
 ### minikube use local image
 
