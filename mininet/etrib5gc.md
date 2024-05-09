@@ -31,7 +31,7 @@ sudo apt install mininet
     sudo ln -s /usr/bin/ovs-testcontroller /usr/bin/controller
     ```
 
-- Error cgroup:
+- Error cgroup `Exception: cgroups not mounted on /sys/fs/cgroup`:
 
     ```bash
     sudo nano /etc/default/grub
@@ -39,4 +39,8 @@ sudo apt install mininet
     Then modify `GRUB_CMDLINE_LINUX`
     ```bash
     GRUB_CMDLINE_LINUX="cgroup_enable=memory systemd.unified_cgroup_hierarchy=0"
+    ```
+    Apply change
+    ```bash
+    sudo grub-mkconfig -o /boot/grub/grub.cfg
     ```
