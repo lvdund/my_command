@@ -23,6 +23,9 @@
     yay -Rns $(yay -Qdtq)
     ```
     ```bash
+    paru -Rns $(paru -Qdtq)
+    ```
+    ```bash
     sudo pacman -Rns $(pacman -Qdtq)
     ```
 
