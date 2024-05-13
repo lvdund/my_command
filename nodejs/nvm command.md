@@ -6,7 +6,7 @@ Here are some common NVM commands:
    To install NVM, you can use the following command in your terminal:
 
    ```bash
-   curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+   curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
    ```
 
    After the installation, restart your terminal or run the initialization script as instructed in the terminal.
