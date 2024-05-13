@@ -9,16 +9,21 @@ Here are some common NVM commands:
    curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
    ```
 
-   After the installation, restart your terminal or run the initialization script as instructed in the terminal.
+   After the installation,
+   ```bash
+   export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
+   [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
+   ```
+   restart your terminal or run the initialization script as instructed in the terminal.
 
-2. **List available Node.js versions:**
+3. **List available Node.js versions:**
    You can list all available Node.js versions that you can install using:
 
    ```bash
    nvm ls-remote
    ```
 
-3. **Install a specific Node.js version:**
+4. **Install a specific Node.js version:**
    To install a specific version of Node.js, you can use:
 
    ```bash
@@ -31,7 +36,7 @@ Here are some common NVM commands:
    nvm install 14.17.0
    ```
 
-4. **Set default Node.js version:**
+5. **Set default Node.js version:**
    To set a default Node.js version to be used in new shells, you can use:
 
    ```bash
@@ -44,7 +49,7 @@ Here are some common NVM commands:
    nvm alias default 14.17.0
    ```
 
-5. **Use a specific Node.js version:**
+6. **Use a specific Node.js version:**
    To use a specific version of Node.js in the current shell session, you can use:
 
    ```bash
@@ -57,14 +62,14 @@ Here are some common NVM commands:
    nvm use 14.17.0
    ```
 
-6. **List installed Node.js versions:**
+7. **List installed Node.js versions:**
    You can list all locally installed Node.js versions with:
 
    ```bash
    nvm ls
    ```
 
-7. **Uninstall a Node.js version:**
+8. **Uninstall a Node.js version:**
    To uninstall a specific version of Node.js, you can use:
 
    ```bash
