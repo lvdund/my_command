@@ -1,5 +1,9 @@
 ## My Command
 
+### All my config files
+
+- Check this [folder](./config-file/)
+
 ### Capture package
 
 - [tcpdump](./tcpdump_wireshark/tcpdump.md)
@@ -40,6 +44,7 @@
 - [Delete](./arch_linux/delete_pkg.md)
 - [yay](./arch_linux/packed%20AUR%20helper%20yay.md)
 - [paru](./arch_linux/packed%20AUR%20helper%20paru.md)
+- [process](./arch_linux/process.md)
 
 ### mininet
 

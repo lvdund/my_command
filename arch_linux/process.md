@@ -9,4 +9,4 @@
    - `ps aux | grep "name"`: Find.
    - `sudo netstat -tunpl`: Check running port with ID process.
    - `kill {id}`: Kill process.
-
+   - `cat /proc/net/sctp/eps`: Check SCTP open port.
