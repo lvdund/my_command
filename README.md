@@ -75,3 +75,7 @@ dbus-send --type=method_call --dest=io.crow_translate.CrowTranslate /io/crow_tra
 ### Old kernel version
 
 - On [Debian 12](./debian12/old-kernel-version.md)
+
+### Learn k8s
+
+- [github tranductrinh](https://github.com/tranductrinh/k8s)
