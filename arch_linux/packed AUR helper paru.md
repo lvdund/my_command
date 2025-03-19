@@ -64,8 +64,8 @@ Paru là một công cụ quản lý gói cho Arch Linux, dựa trên yay, và n
    ```
 
 13. **Update Mirrors**
-    ```bash
-    sudo reflector --verbose --sort rate -l 20 --save /etc/pacman.d/mirrorlist
-    ```
+   ```bash
+   sudo reflector --verbose --sort rate -l 20 --save /etc/pacman.d/mirrorlist
+   ```
 
 Nhớ kiểm tra tài liệu của Paru hoặc nhập `paru --help` để xem danh sách đầy đủ các tùy chọn và lựa chọn.
