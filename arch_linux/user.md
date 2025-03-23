@@ -25,3 +25,12 @@ sudo usermod -aG sudo newuser
 ```bash
 id newuser
 ```
+
+3. **Gnome**
+```bash
+paru -S gnome-browser-connector
+```
+### If completely unable to play ANY videos.
+```bash
+systemctl --user restart pipewire wireplumber
+```
