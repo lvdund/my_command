@@ -63,9 +63,13 @@ Paru là một công cụ quản lý gói cho Arch Linux, dựa trên yay, và n
    paru -Q
    ```
 
-13. **Update Mirrors**
+13. **Update**
    ```bash
    sudo reflector --verbose --sort rate -l 20 --save /etc/pacman.d/mirrorlist
+   ```
+   ```bash
+   paru -S os-prober
+   sudo grub-mkconfig -o /boot/grub/grub.cfg
    ```
 
 Nhớ kiểm tra tài liệu của Paru hoặc nhập `paru --help` để xem danh sách đầy đủ các tùy chọn và lựa chọn.
