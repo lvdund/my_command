@@ -1,9 +1,0 @@
-[user]
-	name = lvdund
-	email = lvdund@gmail.com
-[log]
-	decorate = auto
-[bash]
-	showCurrentBranch = true
-[color]
-	ui = auto
