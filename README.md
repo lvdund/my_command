@@ -1,9 +1,5 @@
 ## My Command
 
-### All my config files
-
-- Check this [folder](./config-file/)
-
 ### Capture package
 
 - [tcpdump](./tcpdump_wireshark/tcpdump.md)
@@ -15,22 +11,6 @@
 
 - (Recommend)[Read](./python/pyenv.md)
 
-### Docker command
-
-- [Command](./docker_command/README.md)
-- [mongodb](./docker_command/mongodb.md)
-
-### Run Etrib5gc
-
-- [Read config](./run%20etrib5gc/readme.md)
-- [Download run/](./run%20etrib5gc/run/) to etrib5gc/
-- [Setup vm virtualbox (không có bước config)](./run%20etrib5gc/setup_vms.md)
-- [mininet](./mininet/etrib5gc.md)
-
-### Nodejs nvm
-
-- [nvm command](./nodejs/nvm%20command.md)
-
 ### Arch Linux
 
 - [Command](./arch_linux/command.md)
@@ -38,11 +18,6 @@
 - [yay](./arch_linux/packed%20AUR%20helper%20yay.md)
 - [paru](./arch_linux/packed%20AUR%20helper%20paru.md)
 - [process](./arch_linux/process.md)
-
-### mininet
-
-- [connect host to external](./mininet/h1-to-google.md)
-- [setup for etrib5gc testing](./mininet/etrib5gc.md)
 
 ### minikube use local image
 
@@ -72,3 +47,9 @@ dbus-send --type=method_call --dest=io.crow_translate.CrowTranslate /io/crow_tra
 ### Learn k8s
 
 - [github tranductrinh](https://github.com/tranductrinh/k8s)
+
+### begin config
+```bash
+git config --global user.name "lvdund"
+git config --global user.email lvdund@gmail.com
+```
