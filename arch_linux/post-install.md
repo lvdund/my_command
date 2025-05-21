@@ -13,6 +13,7 @@ paru -S ttf-firacode-nerd
 - Install virtualbox & Vagrant
 ```bash
 paru -S linux-lts-headers vagrant virtualbox
+sudo vboxreload
 sudo modprobe vboxdrv
 ```
 
